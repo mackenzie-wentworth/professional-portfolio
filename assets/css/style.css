@@ -4,10 +4,55 @@
     margin: 0;
 }
 
+body {
+    font-family: 'Trebuchet MS';
+    margin: 0;
+}
+
+.header,
+.footer {
+    padding: 0;
+    background-color: gray;
+    color: white;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 70px; 
+    margin-left: 20%;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#fancy-box-image {
+    border-radius: 100%;
+    margin-right: 50%;
+    width: 25%;
+}
+#about-me {
+    display: flex;
+    align-items: center;
+    margin-right: 50%;
+}
 
 /* WHEN I am presented with the developer's first application, THEN that application's image should be larger in size than the others */
     
- 
+
 .flexcontainer-project-cards {
     display: flex;
     flex-wrap: wrap;
