@@ -4,29 +4,9 @@
     margin: 0;
 }
 
-body {}
 
-.header {}
-
-.header nav {}
-
-.header h1 {}
-
-.header ul {}
-
- .header li {}
-
- a {}
-
- p {}
-
- .portfolio-content {}
-
- #about-me {}
-
- #work {}
-
- #contact-me {}
+/* WHEN I am presented with the developer's first application, THEN that application's image should be larger in size than the others */
+    
  
 .flexcontainer-project-cards {
     display: flex;
@@ -38,5 +18,3 @@ body {}
     width: 100%;
     min-width: 400px;
 }
-
-.footer {}
