@@ -4,12 +4,39 @@
     margin: 0;
 }
 
+body {}
+
+.header {}
+
+.header nav {}
+
+.header h1 {}
+
+.header ul {}
+
+ .header li {}
+
+ a {}
+
+ p {}
+
+ .portfolio-content {}
+
+ #about-me {}
+
+ #work {}
+
+ #contact-me {}
+ 
 .flexcontainer-project-cards {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
-#project-card-2 img {
+.flexcontainer-project-cards img {
     width: 100%;
     min-width: 400px;
 }
+
+.footer {}
