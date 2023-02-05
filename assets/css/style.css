@@ -10,7 +10,7 @@ body {
 }
 
 .header-list {
-    background:rgb(230, 216, 216);
+    /* background:rgb(230, 216, 216); */
     margin: 0;
     padding: 1rem;
     width: 100%;
@@ -49,13 +49,13 @@ body {
 
 .nav-item a {
     text-decoration: none;
-    color: red;
+    color: black;
 }
 
 .flex-container {
     display: flex;
     background-color:rgb(230, 216, 216);
-    margin-top: 20px;
+    margin-top: 5px;
     padding: 30px;
 }
 
@@ -68,7 +68,7 @@ body {
     flex-direction: column;
     margin: 20px;
     font-size: 180%;
-    background-color: rgb(79, 9, 44);
+    background-color: rgb(168, 58, 113);
     color: white;
 }
 
@@ -76,7 +76,7 @@ body {
     display: flex;
     /* justify-content: flex-end; */
     flex-direction: column;
-    flex: 2;
+    flex: 3;
 }
 
 .row {
@@ -140,6 +140,23 @@ body {
     background-image: url("../images/5-pexels-steve-johnson-12810661.jpg");
 }
 
+.contact-list {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-item {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: black;
+}
 
 /* @media (max-width: 800px) {
     .work-card-1 {
@@ -151,10 +168,5 @@ body {
         max-width: 600px;
     }
     
-} */
-/* .card {
-    background:white;
-    margin: 5px;
-    padding: 10px;
 } */
 
