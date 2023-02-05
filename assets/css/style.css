@@ -51,3 +51,74 @@ body {
     text-decoration: none;
     color: red;
 }
+
+.work-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work-card-1 {
+    background: white;
+    position: relative;
+    flex: 1;
+    max-width: 940px;
+    height: 300px;
+    margin: 10px;
+    border: 3px solid pink;
+}
+
+.card-image-1 {
+    background-color: rgb(230, 216, 216);
+    height: 225px;
+    margin-bottom: 12px;
+    background-size: cover;
+}
+.work-card-2 {
+    background: white;
+    position: relative;
+    flex: 1;
+    max-width: 460px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid pink;
+}
+
+.card-image-2 {
+    background-color: rgb(230, 216, 216);
+    height: 125px;
+    margin-bottom: 12px;
+    background-size: cover;
+}
+
+.project-1 {
+    background-image: url("../images/1-pexels-fauxels-3183132.jpg");
+}
+.project-2 {
+    background-image: url("../images/2-pexels-jakub-novacek-924824 (1).jpg");
+}
+
+.project-3 {
+    background-image: url("../images/3-pexels-steve-johnson-12732215.jpg");
+}
+
+.project-4 {
+    background-image: url("../images/4-pexels-bruno-thethe-1910225 (1).jpg");
+}
+
+.project-5 {
+    background-image: url("../images/5-pexels-steve-johnson-12810661.jpg");
+}
+
+/* .card {
+    background:white;
+    margin: 5px;
+    padding: 10px;
+} */
+
