@@ -54,6 +54,9 @@ body {
 
 .flex-container {
     display: flex;
+    background-color:rgb(230, 216, 216);
+    margin-top: 20px;
+    padding: 30px;
 }
 
 .container-header {
@@ -64,6 +67,9 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 20px;
+    font-size: 180%;
+    background-color: rgb(79, 9, 44);
+    color: white;
 }
 
 .container-details{
