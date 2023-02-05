@@ -52,11 +52,23 @@ body {
     color: red;
 }
 
+.flex-container {
+    display: flex;
+    flex: 1;
+}
+
+.container-header {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+}
 
 .container-details{
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     flex-direction: column;
+    flex: 2;
 }
 
 .row {
@@ -103,6 +115,7 @@ body {
 .project-1 {
     background-image: url("../images/1-pexels-fauxels-3183132.jpg");
 }
+
 .project-2 {
     background-image: url("../images/2-pexels-jakub-novacek-924824 (1).jpg");
 }
@@ -119,7 +132,8 @@ body {
     background-image: url("../images/5-pexels-steve-johnson-12810661.jpg");
 }
 
-@media (max-width: 800px) {
+
+/* @media (max-width: 800px) {
     .work-card-1 {
         flex: 100%;
         max-width: 600px;
@@ -129,7 +143,7 @@ body {
         max-width: 600px;
     }
     
-}
+} */
 /* .card {
     background:white;
     margin: 5px;
