@@ -1,118 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <title>MacKenzie Wentworth's Professional Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
+
 <body>
 
-    <header>
-        <ul class="header-list">
-            <li class="header-item">
-                <img class="profile-picture" src="./assets/images/mackenzie-wentworth-headshot.png" alt="Professional headshot of MacKenzie Wentworth" />
-            </li>
-            <li class="header-item">
-                <h1>MacKenzie Wentworth</h1>
-            </li>
-        </ul>
-        <navbar>
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="#">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Work</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Contact Me</a>
-                </li>
-            </ul>
-        </navbar>
-    </header>
+    <!-- Header -->
+    <div class="color-box">
+        <img src="assets/images/profile-pic.jpg" alt="Avatar" class="avatar">
+        <h1>MacKenzie Wentworth</h1>
+    </div>
 
-    <main>
-        <section class="flex-container">
-            <aside class="container-header" id="about-me">
-                <h1>About Me</h1>
-            </aside>
-            <section  class="container-details">
-                <div class="row">
-                    <div class="about-me-card">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#about-me">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="portfolio-wrapper">
+
+        <div class="project-row">
+            <section>
+                <h2 id="about-me">About Me</h2>
+                <p>I am a student in the UNC Chapel Hill Coding Bootcamp</p>
+            </section>
+            </div>
+
+
+    <div id="projects" class="project-title-row">
+        <h2>Projects</h2>
+    </div>
+
+            <!-- project images  -->
+            <div class="project-row">
+
+                <div class="project-column">
+
+                    <!-- Start Project 1 -->
+                    <div class="project-img-text-container">
+                        <img src="assets/images/test.jpg" style="width:100%">
+                        <div class="project-text-block">
+                            <h4><a href="https://mackenzie-wentworth.github.io/code-refractor/">Project 1</a></h4>
+                        </div>
+                    </div>
+                    <!-- End Project 1 -->
+                    <div class="project-img-text-container">
+                        <img src="assets/images/test-2.jpg" style="width:100%">
+                        <div class="project-text-block">
+                            <h4><a href="https://mackenzie-wentworth.github.io/code-refractor/">Project 2</a></h4>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </section>
 
-        <section class="flex-container">
-            <aside class="container-header" id="work">
-                <h1>Work</h1>
-            </aside>
-    
-            <section  class="container-details">
-                    <div class="row">
-                        <div class="work-card-1">
-                            <div class="card-image-1 project-1"></div>
-                            <h2>Project 1</h2>
-                            <p>Text</p>
+                <div class="project-column">
+                    <div class="project-img-text-container">
+                        <img src="assets/images/test-2.jpg" style="width:100%">
+                        <div class="project-text-block">
+                            <h4><a href="https://mackenzie-wentworth.github.io/code-refractor/">Project 3</a></h4>
                         </div>
                     </div>
-    
-                    <div class="row">
-                        <div class="work-card-2">
-                            <div class="card-image-2 project-2"></div>
-                            <h2>Project 2</h2>
-                            <p>Text</p>
-                        </div>
-                        <div class="work-card-2">
-                            <div class="card-image-2 project-3"></div>
-                            <h2>Project 3</h2>
-                            <p>Text</p>
+                    <div class="project-img-text-container">
+                        <img src="assets/images/project-1.jpg" style="width:100%">
+                        <div class="project-text-block">
+                            <h4><a href="https://mackenzie-wentworth.github.io/code-refractor/">Project 4</a></h4>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="work-card-2">
-                            <div class="card-image-2 project-4"></div>
-                            <h2>Project 4</h2>
-                            <p>Text</p>
-                        </div>
-                        <div class="work-card-2">
-                            <div class="card-image-2 project-5"></div>
-                            <h2>Project 5</h2>
-                            <p>Text</p>
-                        </div>
-                    </div>
-            </section>
-        </section>
-
-        <section class="flex-container">
-            <aside class="container-header" id="contact-me">
-                <h1>Contact Me</h1>
-            </aside>
-            <section  class="container-details">
-                <div class="row">
-                    <ul class="contact-list">
-                        <li class="contact-item">
-                            <a href="mwentworth28@gmail.com">mwentworth28@gmail.com</a>
-                        </li>
-                        <li class="contact-item">
-                            <a href="#">(555) 555-5555</a>
-                        </li>
-                        <li class="contact-item">
-                            <a href="https://github.com/mackenzie-wentworth?tab=repositories">GitHub</a>
-                        </li>
-                    </ul>
                 </div>
-            </section>
-        </section>
-    </main>
+
+                <div class="project-column">
+                    <div class="project-img-text-container">
+                        <img src="assets/images/project-1.jpg" style="width:100%">
+                        <div class="project-text-block">
+                            <h4><a href="https://mackenzie-wentworth.github.io/code-refractor/">Project 5</a></h4>
+                        </div>
+                    </div>
+                    <div class="project-img-text-container">
+                        <img src="assets/images/project-1.jpg" style="width:100%">
+                        <div class="project-text-block">
+                            <h4><a href="https://mackenzie-wentworth.github.io/code-refractor/">Project 6</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-column">
+                    <div class="project-img-text-container">
+                        <img src="assets/images/project-1.jpg" style="width:100%">
+                        <div class="project-text-block">
+                            <h4><a href="https://mackenzie-wentworth.github.io/code-refractor/">Project 7</a></h4>
+                        </div>
+                    </div>
+                    <div class="project-img-text-container">
+                        <img src="assets/images/project-1.jpg" style="width:100%">
+                        <div class="project-text-block">
+                            <h4><a href="https://mackenzie-wentworth.github.io/code-refractor/">Project 8</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        
+
+    </div> 
+
+    <div id="contact" class="contact-container">
+        <div>Contact Me</div>
+        <div>email@gmail.com</div>
+        <div>123-456-7890</div>
+
+    <div></div>
+    </div>
 
     <footer class="footer">
-        <h4>Made with ❤️️ by MacKenzie Wentworth</h4>
+        <h2>Made with ❤️️ by MacKenzie Wentworth</h2>
     </footer>
 
 </body>
+
 </html>
