@@ -141,6 +141,7 @@ body {
 }
 
 .project-title-row {
+    padding: 20px;
     background-color: #1abc9c;
 }
 
@@ -164,6 +165,7 @@ body {
  
 .contact-container {
     display: flex;
+    padding: 20px;
     justify-content: center;
     background-color: #1abc9c;
     color: black;
@@ -177,6 +179,7 @@ body {
 }
 
 .footer-container {
+    padding: 5px;
     display: flex;
     justify-content: center;
     background-color: white;
