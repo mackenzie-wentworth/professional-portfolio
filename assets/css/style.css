@@ -142,6 +142,8 @@ body {
 
 .project-title-row {
     padding: 20px;
+    display: flex;
+    justify-content: center;
     background-color: #1abc9c;
 }
 
