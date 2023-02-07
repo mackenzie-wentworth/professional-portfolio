@@ -8,7 +8,7 @@ Link to deployed web application:
 
 ## The Task
 
-Assigned by this week's Challenge, I was tasked to build my own portfolio webpage to show future employers using advanced CSS skills. The portfolio will include the following items:
+Assigned by this week's Challenge, I was tasked to build my own portfolio webpage from scratch to present to future employers. The portfolio incorporates advanced CSS skills to include the following items:
 
 * Developer's name and a recent photo or avatar
 * Navigation bar with links for sections throughout the portfolio
