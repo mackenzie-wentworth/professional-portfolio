@@ -1,8 +1,10 @@
 # Professional Porfolio of MacKenzie Wentworth
 
+
 ## Deployed Webpage
 
 Link to deployed web application: 
+
 
 ## The Task
 
@@ -13,7 +15,6 @@ Assigned by this week's Challenge, I was tasked to build my own portfolio webpag
 * Sections to include details about the developer, their work/projects, and contact information
 * Links attached to each project that directs the user to the deployed application
 * Responsive design accessibility to view the portfolio using different screen sizes and devices based on the user's viewport
-
 
 
 ## Mock-Up
