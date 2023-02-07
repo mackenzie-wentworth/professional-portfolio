@@ -112,7 +112,6 @@ body {
 .project-img-text-container {
     position: relative;
     text-align: center;
-    /* color: white; */
 }
 
 .project-text-block {
@@ -127,7 +126,6 @@ body {
 
 .project-text-block a {
     color: white;
-    /* padding: 14px 20px; */
     text-decoration: none;
     text-align: center;
 }
@@ -163,11 +161,14 @@ body {
     text-decoration: none;
 }
 
+.contact-container a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .footer {
-    /* margin-top: auto; */
     padding: 20px;
     text-align: center;
-    /* display: flex; */
     width: 100%;
     background: #ddd;
 }
@@ -176,7 +177,6 @@ body {
     padding: 5px;
     display: flex;
     justify-content: center;
-    /* background-color: #FFFDD0; */
     color: black;
 }
 
