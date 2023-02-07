@@ -3,7 +3,7 @@
 
 ## Deployed Webpage
 
-Link to deployed web application: 
+Link to deployed web application: https://mackenzie-wentworth.github.io/professional-portfolio/ 
 
 
 ## The Task
